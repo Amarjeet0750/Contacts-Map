@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.contactsmap.contacts_map.contacts.Contacts"
+    android:orientation="vertical">
+
+    <!-- Name Label -->
+    <TextView
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#5D4037"/>
+    <!-- Email Label -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"/>
+    <!-- Mobile Label -->
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/mobile_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <!-- Mobile Label -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Office Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/office_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac" />
+
+</LinearLayout>
